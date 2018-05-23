@@ -633,7 +633,7 @@ function createCharts(raw,rbw,rcw,rdw,aa,Sa,Sb) {
         var z = d3
         .scaleLinear() //	both charts return the same color scale
         .domain([d3.min(data.map(returnRev)), 0, d3.max(data.map(returnRev))])
-        .range(["red", "white","green"]);
+        .range(["#C12B3C", "white","#164995"]);
    
         var highlightIDs = function(d) {
             d3
