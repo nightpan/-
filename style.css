@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+* {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+div#charts {
+  width: 860px;
+  height: 400px;
+  margin: 0 auto;
+}
+
+div#charts > div {
+  max-height: 400px;
+  position: relative;
+  margin: auto;
+  padding: auto;
+  display: inline-block;
+}
+
+div#tablet {
+  overflow-y: scroll;
+}
+.toolTip {
+  position: absolute;
+  display: none;
+  min-width: 80px;
+  height: auto;
+  background: none repeat scroll 0 0 #ffffff;
+  border: 1px solid gray;
+  padding: 14px;
+  opacity: .75;
+}
+
+#tablet tr {
+  font-size: 8px;
+}
+
+th {
+  border-bottom: 1px solid gray;
+}
+th {
+  cursor: pointer;
+  cursor: hand;
+}
+
