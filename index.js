@@ -687,9 +687,9 @@ function createCharts(raw,rbw,rcw,rdw,aa,Sa,Sb) {
             barchart
                 .append("text")     
                 .attr("x", w / 2)
-                .attr("y", (height - 200) / 10)
+                .attr("y", (height - 100) / 10)
                 .attr("text-anchor", "middle")
-                .style("font-size", "28px")
+                .style("font-size", "30px")
                 .text(title);
             barchart // 長條圖設定
                 .selectAll("rect")
