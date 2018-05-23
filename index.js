@@ -553,7 +553,7 @@ function createCharts(raw,rbw,rcw,rdw,aa,Sa,Sb) {
             html2: "#tablet",
             width: parseInt(chartElementWidth),
             height: parseInt(chartElementHeight),
-            ratio: 0.5
+            ratio: 0.8
         };
     }else if(aa == 2){
         var Configurations = {
@@ -564,7 +564,7 @@ function createCharts(raw,rbw,rcw,rdw,aa,Sa,Sb) {
             html2: "#tablet",
             width: parseInt(chartElementWidth),
             height: parseInt(chartElementHeight),
-            ratio: 0.5
+            ratio: 0.8
         };
     }else if(aa == 3){
         var Configurations = {
@@ -575,7 +575,7 @@ function createCharts(raw,rbw,rcw,rdw,aa,Sa,Sb) {
             html2: "#tablet",
             width: parseInt(chartElementWidth),
             height: parseInt(chartElementHeight),
-            ratio: 0.5
+            ratio: 0.8
         };
     }else if(aa == 4){
         var Configurations = {
@@ -586,7 +586,7 @@ function createCharts(raw,rbw,rcw,rdw,aa,Sa,Sb) {
             html2: "#tablet",
             width: parseInt(chartElementWidth),
             height: parseInt(chartElementHeight),
-            ratio: 0.5
+            ratio: 0.8
         };
     }
 
