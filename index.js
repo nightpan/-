@@ -553,7 +553,7 @@ function createCharts(raw,rbw,rcw,rdw,aa,Sa,Sb) {
             html2: "#tablet",
             width: parseInt(chartElementWidth),
             height: parseInt(chartElementHeight),
-            ratio: 0.8
+            ratio: 0.5
         };
     }else if(aa == 2){
         var Configurations = {
